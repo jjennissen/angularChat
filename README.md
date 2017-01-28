@@ -10,4 +10,4 @@ This is mainly copied from Deborah Kurara's course in creating an angular app.
 ## npm start
 That will start the service that is like an Angular dev environment
 
-## The socket.io server is not yet in this project as it has to be run independantly of the angular app (obviously)
+## The socket.io server is not yet in this project as it has to be run independently of the angular app (obviously)
