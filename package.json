@@ -1,8 +1,8 @@
 {
-    "name": "product-management",
-    "version": "1.0.0",
-    "author": "Deborah Kurata",
-    "description": "Package for the Acme Product Management sample application",
+    "name": "ng2-chat",
+    "version": "0.0.1",
+    "author": "Justin Jennissen",
+    "description": "Angular front end for a Socket.io Chat App",
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
         "tsc": "tsc",
