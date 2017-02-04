@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ChatService } from './chat.service';
 
 @Component({
     selector: 'chat',
@@ -7,8 +8,13 @@ import { Component } from '@angular/core';
     styleUrls: ['chat.component.css']
 })
 export class ChatComponent { 
+    constructor(private _chatService: ChatService) {
+
+    }   
     buttonClick(): void  {
         console.log('Button pressed');
+        this._chatService.loggger();
     }
+
 }
 
